@@ -1,0 +1,43 @@
+1.SELECT עיר,חברה FROM `cell_towers`;
+2.SELECT `סוג אתר`,`כתובת האתר` FROM `cell_towers`;
+3.SELECT `חברה` from cell_towers`cell_towers`; 3 חברות
+4.SELECT `עיר` from cell_towers`cell_towers`; 705 ערים
+5.SELECT `סוג אתר` from cell_towers`cell_towers`;
+6.SELECT `טכנולוגיית שידור` from cell_towers`cell_towers`;
+7.SELECT `היתר קרינה` from cell_towers`cell_towers`;
+8.SELECT `רשות מקומית` from cell_towers`cell_towers`;
+9.SELECT ID,חברה FROM `cell_towers`;
+10.select עוצמה מרבית תיאורטית בWו לסמר עיק
+11.SELECT `עיר`,`תוצאה מירבית ב% ביחס לסף הבריאות` FROM `cell_towers`;
+12.SELECT * FROM cell_towers;
+13.SELECT * FROM cell_towers;
+14.SELECT `חברה`,`תאריך היתר הפעלה` FROM cell_towers;
+15.SELECT `חברה`,`בדיקה תקופתית אחרונה` FROM cell_towers;
+16.SELECT `עיר`,`רשות מקומית` FROM cell_towers;
+17.SELECT `סוג אתר`,`טכנולוגיית שידור` FROM cell_towers;
+18.הכי גבוהה 44.0
+19.SELECT ID,`תוצאה מירבית ב% ביחס לסף הבריאות` FROM `cell_towers`;
+20.SELECT * FROM `cell_towers` WHERE `רשות מקומית` LIKE 'תל אביב יפו' or `רשות מקומית` LIKE 'עירית תל אביב';
+21.SELECT * FROM `cell_towers` WHERE `עיר` LIKE 'תל אביב';
+22.SELECT * FROM `cell_towers` WHERE `סוג אתר` LIKE 'תורן קרקעי';
+23.SELECT * FROM `cell_towers` WHERE `סוג אתר` LIKE 'תורן קרקעי';
+24.SELECT * FROM `cell_towers` WHERE `היתר קרינה` LIKE 'אין היתר';
+25.SELECT * FROM `cell_towers` WHERE `טכנולוגיית שידור` LIKE '%5%';
+26.SELECT * FROM `cell_towers` WHERE `עיר` LIKE 'תל%';
+27.SELECT * FROM `cell_towers` WHERE `תוצאה מירבית ב% ביחס לסף הבריאות` > 50;
+28.SELECT * FROM `cell_towers` WHERE `עוצמה מרבית תיאורטית
+בuW
+לסמר` > 
+5;
+29.SELECT * FROM `cell_towers` WHERE `תוצאה מירבית ב% ביחס לסף הבריאות` > 10;
+30.SELECT * FROM `cell_towers` WHERE `תוצאה מירבית ב% ביחס לסף הבריאות` = 0;
+31.SELECT * FROM `cell_towers` WHERE `עיר` LIKE 'תל אביב' AND `חברה` LIKE '%פרטנר%';
+32.SELECT * FROM `cell_towers` WHERE `סוג אתר` NOT LIKE 'תורן קרקעי';
+33.SELECT * FROM `cell_towers` WHERE `תאריך היתר הקמה` > '01/01/2020';
+34.SELECT * FROM `cell_towers` WHERE `תאריך היתר הקמה` > '01/01/2020';
+35.SELECT * FROM `cell_towers` WHERE `כתובת האתר` LIKE '%רחוב%';
+36.SELECT * FROM `cell_towers` WHERE `טכנולוגיית שידור` LIKE '%34%';
+37.SELECT * FROM `cell_towers` WHERE `טכנולוגיית שידור` LIKE '%3%' and `טכנולוגיית שידור` LIKE '%4%';
+38.SELECT * FROM `cell_towers` WHERE `חברה` NOT LIKE 'סלקום';
+39.SELECT * FROM `cell_towers` WHERE `עיר` NOT LIKE 'NULL';
+40.SELECT * FROM `cell_towers` WHERE `תאור נקודה בה התקבלה תוצאה מירבית` LIKE '%קרקע%';
